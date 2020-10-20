@@ -7,7 +7,7 @@
   $id = $_GET['id'] ?? false;
 
   if(!$id) {
-    redirect_to('bicycles.php');
+    redirect_to('birds.php');
   }
 
   // Find bicycle using ID
